@@ -6,6 +6,7 @@ This directory contains files essential to setup liveness probes for Bank of Ant
 * `probes.yaml` - contains the Probe custom resource per microservice. One monitoring configuration per microservice is defined.
 * `rules.yaml` - contains the PrometheusRule custom resource.
 * `alertmanagerconfig.yaml` - contains configuration of AlertmanagerConfig custom resource. This resource defines the configurations necessary to send notifications to a Slack channel via Webhook URL.
+* `contacts-probe` and `uptime-rule` - contains the Probe and PrometheusRule that are used in the tutorial [Application observability with Prometheus on GKE](https://cloud.google.com/kubernetes-engine/docs/tutorials/observability-with-prometheus).
 
 ## How to apply configurations
 
